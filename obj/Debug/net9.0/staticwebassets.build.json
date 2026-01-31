@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZJODkAyHEBVT36bTUGlH09aqQ4B0pbyUFf4sEHUUdFo=",
+  "Source": "TradeServiceApi",
+  "BasePath": "_content/TradeServiceApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

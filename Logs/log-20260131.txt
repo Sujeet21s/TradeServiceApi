@@ -1,0 +1,37 @@
+16:07:25.148 [INF] [] IP: Handling service request TradeServiceApi.Models.TransactionDto
+16:07:25.154 [INF] [] IP: Processing transaction: TradeID=201, Version=1, Action=INSERT
+16:07:25.157 [INF] [] IP: Transaction saved with ID: 1
+16:07:25.161 [INF] [] IP: Updating position: GOOGL, Delta: 50
+16:07:25.162 [INF] [] IP: Position updated: GOOGL by 50
+16:08:04.596 [INF] [] IP: Handling position service request
+16:08:12.905 [INF] [] IP: Handling service request TradeServiceApi.Models.TransactionDto
+16:08:12.906 [INF] [] IP: Processing transaction: TradeID=101, Version=1, Action=INSERT
+16:08:12.906 [INF] [] IP: Transaction saved with ID: 2
+16:08:12.906 [INF] [] IP: Updating position: AAPL, Delta: 100
+16:08:12.906 [INF] [] IP: Position updated: AAPL by 100
+16:08:22.611 [INF] [] IP: Handling position service request
+16:10:44.962 [INF] [] IP: Handling service request TradeServiceApi.Models.TransactionDto
+16:10:44.962 [INF] [] IP: Processing transaction: TradeID=101, Version=3, Action=CANCEL
+16:10:44.962 [INF] [] IP: Transaction saved with ID: 3
+16:10:54.270 [INF] [] IP: Handling position service request
+16:11:05.019 [INF] [] IP: Handling service request TradeServiceApi.Models.TransactionDto
+16:11:05.019 [INF] [] IP: Processing transaction: TradeID=101, Version=2, Action=CANCEL
+16:11:05.019 [INF] [] IP: Transaction saved with ID: 4
+16:11:05.021 [INF] [] IP: CANCEL: TradeID=101, Using CURRENT trade data: AAPL/100/BUY
+16:11:05.022 [INF] [] IP: Updating position: AAPL, Delta: -100
+16:11:05.022 [INF] [] IP: Reversed position: AAPL by -100
+16:11:05.023 [INF] [] IP: Processing 1 pending transactions
+16:11:10.458 [INF] [] IP: Handling position service request
+16:11:34.646 [INF] [] IP: Handling service request TradeServiceApi.Models.TransactionDto
+16:11:34.646 [INF] [] IP: Processing transaction: TradeID=201, Version=1, Action=UPDATE
+16:11:34.646 [INF] [] IP: Transaction saved with ID: 5
+16:11:44.683 [INF] [] IP: Handling service request TradeServiceApi.Models.TransactionDto
+16:11:44.683 [INF] [] IP: Processing transaction: TradeID=201, Version=2, Action=UPDATE
+16:11:44.683 [INF] [] IP: Transaction saved with ID: 6
+16:11:44.684 [INF] [] IP: UPDATE: TradeID=201, Old: GOOGL/50/BUY, New: GOOGL/300/BUY
+16:11:44.684 [INF] [] IP: Updating position: GOOGL, Delta: -50
+16:11:44.684 [INF] [] IP: Reversed position: GOOGL by -50
+16:11:44.684 [INF] [] IP: Updating position: GOOGL, Delta: 300
+16:11:44.684 [INF] [] IP: Applied position: GOOGL by 300
+16:11:44.684 [INF] [] IP: Processing 2 pending transactions
+16:11:48.436 [INF] [] IP: Handling position service request

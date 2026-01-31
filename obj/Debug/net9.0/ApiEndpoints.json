@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "TradeServiceApi.Endpoints.ServiceEndpointHandler.ServiceEndpoints",
+    "Method": "GetAllTransactionAsync",
+    "RelativePath": "api/alltransactions",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Transactions"
+    ]
+  },
+  {
+    "ContainingType": "TradeServiceApi.Endpoints.ServiceEndpointHandler.ServiceEndpoints",
+    "Method": "PositionAsync",
+    "RelativePath": "api/positions",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Transactions"
+    ]
+  },
+  {
+    "ContainingType": "TradeServiceApi.Endpoints.ServiceEndpointHandler.ServiceEndpoints",
+    "Method": "TransactionAsync",
+    "RelativePath": "api/transaction",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TradeServiceApi.Models.TransactionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Transactions"
+    ]
+  }
+]
